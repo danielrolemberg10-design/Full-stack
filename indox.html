@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>eSports World</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0f172a;
+            color: white;
+        }
+
+        header {
+            background: linear-gradient(90deg, #7c3aed, #06b6d4);
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #1e293b;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #06b6d4;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #06b6d4;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background-color: #1e293b;
+            padding: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #020617;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+        button {
+            background-color: #7c3aed;
+            border: none;
+            padding: 10px 20px;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #06b6d4;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1> eSports World</h1>
+    <p>O universo dos Esportes Eletrônicos</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#jogos">Jogos</a>
+    <a href="#torneios">Torneios</a>
+    <a href="#contato">Contato</a>
+</nav>
+
+<section id="sobre">
+    <h2>O que são eSports?</h2>
+    <p>
+        eSports (esportes eletrônicos) são competições profissionais de jogos digitais.
+        Grandes títulos como Rainbow six, Counter-Strike 2 e Valorant movimentam
+        milhões de espectadores ao redor do mundo.
+    </p>
+</section>
+
+<section id="jogos">
+    <h2>Principais Jogos Competitivos</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>Rainbow six</h3>
+            <p>FPS tático focado em estratégia e trabalho em equipe, com personagens e habilidades únicas.</p>
+        </div>
+
+        <div class="card">
+            <h3>Counter-Strike 2</h3>
+            <p>FPS tático focado em estratégia e trabalho em equipe.</p>
+        </div>
+
+        <div class="card">
+            <h3>Valorant</h3>
+            <p>FPS competitivo com personagens e habilidades únicas.</p>
+        </div>
+    </div>
+</section>
+
+<section id="torneios">
+    <h2>Grandes Torneios</h2>
+    <p>
+        Competições internacionais distribuem milhões em premiações e são transmitidas
+        para todo o mundo via streaming.
+    </p>
+    <button onclick="alert('Em breve mais informações sobre campeonatos!')">
+        Ver Campeonatos
+    </button>
+</section>
+
+<section id="contato">
+    <h2>Contato</h2>
+    <p>Email: danielrolemberg10@gmail.com</p>
+    <p>Telefone: (+55)1169658897</p>
+</section>
+
+<footer>
+ Todos os direitos reservados
+</footer>
+
+</body>
+</html>
