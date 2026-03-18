@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #bfbfbf;
+}
+
+/* TOPO */
+.header {
+    background-color: #e6cba8;
+    border: 3px solid blue;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.header img {
+    width: 80px;
+    position: absolute;
+    top: 10px;
+}
+
+.logo-left {
+    left: 20px;
+}
+
+.logo-right {
+    right: 20px;
+}
+
+.header h1 {
+    color: green;
+}
+
+/* MENU */
+.nav {
+    background-color: #79a8c7;
+    text-align: center;
+    padding: 10px;
+}
+
+.nav a {
+    margin: 0 30px;
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
+
+/* CONTEÚDO */
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h2 {
+    margin-top: 30px;
+}
+
+p {
+    max-width: 900px;
+    margin: 10px auto;
+    text-align: justify;
+    color: purple;
+}
+
+/* LIVROS */
+.livros {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px;
+}
+
+.livros img {
+    width: 180px;
+}
+
+/* FEI */
+.fei {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px;
+}
+
+/* CONTATOS */
+table {
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px dashed red;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid red;
+    padding: 8px 15px;
+}
+
+th {
+    color: red;
+}
+
+/* SITES */
+.sites {
+    background-color: yellow;
+    width: 400px;
+    margin: 30px auto;
+    padding: 10px;
+    text-align: left;
+}
+
+/* RODAPÉ */
+.footer {
+    background-color: #e6cba8;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+
+.footer img {
+    width: 60px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.footer .html {
+    left: 20px;
+}
+
+.footer .css {
+    right: 20px;
+}
