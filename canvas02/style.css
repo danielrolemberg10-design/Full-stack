@@ -1,0 +1,18 @@
+body {
+    background-color: #dcdcdc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* centralização */
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+canvas {
+    border: 2px solid black;
+}
