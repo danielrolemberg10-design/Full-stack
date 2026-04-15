@@ -1,76 +1,13 @@
-/* Reset basico */
 body {
+    background-color: #d3d3d3; /* cor de fundo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* centralização */
+    height: 100vh;
     margin: 0;
-    font-family: Arial, sans-serif;
 }
 
-/* MENU FIXO */
-.menu {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #333;
-    padding: 15px;
-    text-align: center;
-}
-
-.menu a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    color: yellow;
-}
-
-/* RODAPE FIXO */
-.rodape {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
-/* Conteudo principal */
-.conteudo {
-    margin-top: 80px;
-    margin-bottom: 60px;
-    padding: 20px;
-}
-
-/* DIV com borda */
-.caixa {
-    border: 2px solid black;
-    padding: 20px;
-    margin: 20px 0;
-    position: relative; /* RELATIVE */
-}
-
-/* Elemento ABSOLUTE dentro da caixa */
-.destaque {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: yellow;
-    padding: 5px;
+canvas {
     border: 1px solid black;
-}
-
-
-/* Tabela */
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-table, th, td {
-    border: 1px solid black;
-}
-
-th {
-    background-color: #ddd;
 }
